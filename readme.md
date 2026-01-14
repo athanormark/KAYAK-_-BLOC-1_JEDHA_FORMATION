@@ -1,12 +1,37 @@
 # ✈️ Projet Kayak - Moteur de Recommandation de Voyage
 
-![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![S3](https://img.shields.io/badge/Amazon%20S3-Data%20Lake-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![RDS](https://img.shields.io/badge/Amazon%20RDS-Data%20Warehouse-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Visualisation-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Status](https://img.shields.io/badge/Statut-Terminé-success?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazon-aws&logoColor=white)
+![S3](https://img.shields.io/badge/AWS_S3-Data_Lake-569A31?logo=amazons3&logoColor=white)
+![RDS](https://img.shields.io/badge/AWS_RDS-PostgreSQL-527FFF?logo=postgresql&logoColor=white)
+![Libs](https://img.shields.io/badge/Lib-Pandas_|_Requests_|_SQLAlchemy-orange)
+![Viz](https://img.shields.io/badge/Viz-Plotly-3F4F75?logo=plotly&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+---
+
+## 📋 Vue d'ensemble
+Ce projet est un pipeline de **Data Engineering End-to-End** conçu pour recommander les meilleures destinations de voyage en France.
+
+Il répond à la question : *"Où aller et où dormir pour profiter du meilleur climat cette semaine ?"*
+
+Le système automatise 4 étapes clés :
+1.  **Collecte (ETL) :** Récupération de données via API (Météo) et Scraping (Booking.com).
+2.  **Stockage (Data Lake) :** Sauvegarde des données brutes sur **AWS S3**.
+3.  **Structuration (Data Warehouse) :** Nettoyage et chargement dans une base SQL sur **AWS RDS**.
+4.  **Visualisation :** Génération de cartes interactives pour l'aide à la décision.
+
+## 🏗️ Architecture Technique
+
+> **Flux de données :**
+> API/Scraping ➔ Python (Pandas) ➔ Fichiers CSV ➔ **AWS S3** ➔ **AWS RDS (SQL)** ➔ Dashboard Plotly
+
+## 🚀 Installation et Exécution
+
+### 1. Cloner le projet
+```bash
+git clone [https://github.com/athanormark/KAYAK-_-BLOC-1_JEDHA_FORMATION.git](https://github.com/athanormark/KAYAK-_-BLOC-1_JEDHA_FORMATION.git)
+cd KAYAK-_-BLOC-1_JEDHA_FORMATION
 
 ---
 
