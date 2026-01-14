@@ -32,8 +32,7 @@ Le système automatise 4 étapes clés :
 ```bash
 git clone [https://github.com/athanormark/KAYAK-_-BLOC-1_JEDHA_FORMATION.git](https://github.com/athanormark/KAYAK-_-BLOC-1_JEDHA_FORMATION.git)
 cd KAYAK-_-BLOC-1_JEDHA_FORMATION
-
----
+```
 
 ## 📋 Vue d'ensemble
 Ce projet est un pipeline de Data Engineering complet conçu pour recommander les meilleures destinations de voyage en France, en se basant sur les prévisions météorologiques et la qualité des hôtels.
