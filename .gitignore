@@ -1,0 +1,6 @@
+# Sécurité
+.env
+.ipynb_checkpoints/
+__pycache__/
+* .csv
+* .py"*.csv" 
