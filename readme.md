@@ -64,9 +64,18 @@ DB_PORT=5432
 | `06_Plotly_Viz.ipynb` | Cartes interactives de recommandation (Top 5 destinations + Top 20 hôtels) |
 
 ## 📊 Visualisations
-Le pipeline produit deux cartes interactives :
-1. **Top 5 Destinations** — Classement par score météo composite (température pondérée par la pluie)
-2. **Top 20 Hôtels** — Meilleurs établissements situés dans les 5 zones recommandées
+
+Les cartes ci-dessous sont générées à partir des **données du 07/03/2026**. Les résultats varient selon la date d'exécution car les prévisions météo sont en temps réel.
+
+### Carte 1 : Top 5 Destinations (Score Météo)
+Classement par score météo composite : `température moyenne − (pluie totale × 0.15)`
+
+![Top 5 Destinations](maps/top5_destinations.png)
+
+### Carte 2 : Top 20 Hôtels
+Meilleurs établissements (par note Booking) situés dans les 5 zones recommandées.
+
+![Top 20 Hôtels](maps/top20_hotels.png)
 
 ## 👤 Auteur
 Athanor SAVOUILLAN
