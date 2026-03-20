@@ -9,3 +9,5 @@ plotly==5.18.0
 python-dotenv==1.0.0
 selenium==4.16.0
 webdriver-manager==4.0.1
+rich==13.7.0
+numpy==1.26.3
